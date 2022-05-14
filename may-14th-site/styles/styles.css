@@ -1,0 +1,36 @@
+body {
+  background: #a9d7e9;
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.form {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  margin: auto;
+  width: 800px;
+  padding: 20px 10px 10px 10px;
+}
+p {
+  text-align: center;
+}
+button {
+  background: #6ba2ce;
+  border: none;
+  font-size: 1rem;
+  margin: 10px;
+  color: #fff;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  height: 40px;
+  width: 80px;
+  border-radius: 3px;
+}
+.form-rows {
+  display: block;
+  position: static;
+}
