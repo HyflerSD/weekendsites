@@ -6,13 +6,24 @@ h1 {
   font-size: 3rem;
   font-weight: bold;
 }
+
+.form-title {
+  font-size: 22px;
+  padding-top: 40px;
+}
 .form {
   background-color: #f3f3f3;
   border-radius: 10px;
   margin: auto;
   width: 800px;
-  padding: 20px 10px 10px 10px;
 }
+
+.input-fields {
+  margin: 10px 10px 10px 10px;
+  padding: 5px 5px 5px 5px;
+  width: 280px;
+}
+
 p {
   text-align: center;
 }
@@ -33,4 +44,44 @@ button {
 .form-rows {
   display: block;
   position: static;
+  padding-bottom: 10px;
+}
+ul {
+  text-align: left;
+  display: block;
+}
+.fields {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  width: 48%;
+}
+#event-details {
+  resize: vertical;
+}
+/* .rating {
+  text-align: right;
+} */
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.radio {
+  position: relative;
+  left: -43px;
+  padding-bottom: 10px;
+}
+.checkbox {
+  position: relative;
+  left: -43px;
+  padding-bottom: 10px;
+}
+#location-select {
+  vertical-align: top;
+  height: 35px;
+  width: 140px;
 }
