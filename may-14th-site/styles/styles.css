@@ -85,3 +85,11 @@ ul {
   height: 35px;
   width: 140px;
 }
+.drop-down {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 15px 10px 10px 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+}
